@@ -1,0 +1,23 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 300px;
+    margin: 20px auto 0;
+}
+#container .player,
+#container .score {
+    width: 130px;
+    border: 2px solid black;
+    padding: 5px;
+}
+#container .player {
+    float: left;
+    clear: left;
+}
+#container .score {
+    float: right;
+}
